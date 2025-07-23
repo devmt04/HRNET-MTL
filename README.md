@@ -70,6 +70,8 @@ model = model.eval()
 
 # Citations
 
+#### HrNet
+
 ```
 @inproceedings{sun2019deep,
   title={Deep High-Resolution Representation Learning for Human Pose Estimation},
@@ -93,7 +95,11 @@ model = model.eval()
   journal   = {TPAMI}
   year={2019}
 }
+```
 
+#### PCGrad
+
+```
 @misc{yu2020gradientsurgerymultitasklearning,
       title={Gradient Surgery for Multi-Task Learning}, 
       author={Tianhe Yu and Saurabh Kumar and Abhishek Gupta and Sergey Levine and Karol Hausman and Chelsea Finn},
