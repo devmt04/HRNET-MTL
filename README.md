@@ -61,7 +61,7 @@ model = model.eval()
 ### Input Data Dimensions for traning
 
 - age_inputs : (1, 3, 384, 288) # a Image tensor
-- age_targets : (1,) # a positive real value
+- age_targets : (5,) # probabilities between diffrent age groups
 - seg_inputs : (1, 3, 384, 288) # a Image tensor
 - seg_targets : (1, 1, 384, 288) # a bitmap Segmented mask
 - pose_inputs : (1, 3, 384, 288) # a Image tensor
